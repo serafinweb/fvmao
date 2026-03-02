@@ -1,4 +1,4 @@
-import { FaInstagram, FaTiktok, FaYoutube, FaKickstarterK, FaPaypal } from "react-icons/fa"
+import { FaInstagram, FaYoutube, FaKickstarterK, FaPaypal } from "react-icons/fa"
 import { SiEpicgames } from "react-icons/si"
 
 export default function Hero() {
@@ -28,17 +28,6 @@ export default function Hero() {
             <span className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-20 transition-all"></span>
             <FaInstagram className="text-2xl" />
             <span className="font-medium tracking-wide">Instagram</span>
-          </a>
-
-          {/* TikTok */}
-          <a
-            href="https://tiktok.com/@fvmao"
-            target="_blank"
-            className="w-[85%] md:w-[60%] bg-[#69C9D0] hover:bg-[#4ab3b9] transition-all py-4 rounded-xl font-semibold text-lg shadow-lg flex items-center justify-center gap-3 text-black relative overflow-hidden group"
-          >
-            <span className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-20 transition-all"></span>
-            <FaTiktok className="text-2xl" />
-            <span className="font-medium tracking-wide">TikTok</span>
           </a>
 
           {/* YouTube */}
